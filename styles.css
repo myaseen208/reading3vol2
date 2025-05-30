@@ -1,0 +1,35 @@
+/* Globally justify all text */
+body {
+  text-align: justify;
+}
+
+/* Center the figure and its caption */
+figure {
+  display: block;
+  text-align: center;  /* Center the figure */
+  margin: 0 auto;      /* Center the figure block itself */
+}
+
+figcaption {
+  text-align: center;  /* Ensure the caption is centered */
+  margin-top: 5px;     /* Adjust spacing between the figure and caption */
+}
+
+<style>
+.equation {
+  font-size: 50%; /* Adjust the size as needed */
+}
+</style>
+
+<style>
+.math.display {
+  font-size: 50%; /* Match the text font size */
+}
+</style>
+
+<style>
+.math {
+  font-size: 50%; /* Match the text font size */
+}
+</style>
+
